@@ -1,0 +1,480 @@
+-- Stilizare Mobile First--
+
+:root{
+    -- link-color: red ;
+    -- text-color;
+    -- text-font-family: "Roboto" sans-serif;
+    -- icons-background: blue;
+}
+
+.body {
+    font-family: "Roboto",sans-serif;
+    color: #434455
+}
+
+
+.global-header a
+.global-header a:visited{
+    color: var(-- link color);
+}
+
+.logo1::before {
+    content: "Web";
+    color:blue; 
+    font-weight: 800;
+    Width: 115px;
+    Height: 24px;
+}
+
+.logo1::after {
+    content: "Studio";
+    color:black;
+    font-weight: 800;
+}   
+
+.burger-menu {
+    color:black;
+    position: absolute;
+    top: 40px;
+    right: 20px;
+}
+
+.global-header li {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.global-header {
+    color: #2E2F42;
+    background-color: white;
+    display:flex;
+    justify-content: space-between;
+    width: 1200px;
+    height: 72px;
+    margin-block-start: 0%;
+    border: 15px #E7E9F;
+    padding: 24px;
+    text-decoration: none;
+    border line: 5px;
+    
+}
+.global-header :hover {
+   color:chartreuse;
+}
+
+.linkk {
+    display: none;
+}
+
+.active {
+    display: none;
+}
+
+.button {
+    display: none;
+}
+
+.contact1 {
+    display: none;
+}
+
+.contact2 {
+display: none;
+}
+
+.contact1 svg {
+display: none;
+}
+
+.contact2 svg {
+    display: none;
+}
+
+ .global-section: :before {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.global-section{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 1440px;  
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/1.jpg");
+    margin-block-start: 0%;
+    border-bottom: 1px solid blue;
+       
+}    
+
+.title{
+    font-weight: 700;
+    size: 500px;
+    line height: 100px;
+}   
+.butten-order {
+    margin: none;
+    background-color: #4D5AE5;
+    color: white;
+    padding: 15px;
+    outline: none;   
+}
+
+.butten-order:focus,
+.butten-order:hover {
+    cursor: pointer;
+}
+
+.is-hidden {
+    visibility: hidden;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(46.47.66.0.4);
+}
+
+.modal-content {
+    margin: 0 auto;
+    padding: 16px;
+    background-color: #fff;
+    width: 30%;
+    height: 500px;
+    position: relative;
+}
+      
+.close-btn {
+    background-color: #FCFCFC;
+    border-radius: 50%;
+    color: navy; 
+    outline: none;
+    position: absolute;
+    top: 24px;
+    right: 24px;
+}
+
+.order-title {
+  
+    padding: 0px;
+}
+.modalin {
+    position: absolute;
+    top: 10%;
+    transform: translatey (-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.5;
+   
+}
+
+
+.group-modal {
+    display: flex;
+    flex-direction: column;
+  
+    border-radius: 5px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    position: relative;
+    align-content: flex-end;
+    color:gray;
+}
+
+.submit {
+   margin-left: 30%;
+    background-color: #4D5AE5;
+    color: white;
+    padding: 10px 50px;
+    
+    
+}
+.svg-name {
+    position: absolute;
+    color: black;
+   
+}
+
+.input {
+    width: 95%;
+    line-height: 2;
+}
+.modalin:hover,
+.modalin:focus {
+    cursor pointer;
+    color:#4D5AE5;
+}
+.svg-mail {
+    position: absolute;
+   
+}
+
+.svg-phone {
+    position: absolute;
+}
+
+.list li {
+    list-style-type: none;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+    padding-top: 94px;
+    padding-bottom: 94px; 
+}
+
+.list .enumeration {
+    color:#2E2F42;
+    font-weight: 500;
+    list-style: none;
+    display: flex;
+    justify-content: left;
+
+}
+
+
+
+.container {
+display: flex;
+justify-content: space-evenly;
+width: 1400px;
+}
+
+.aboute-us {
+   color:#2E2F42 ;
+   display: flex;
+   justify-content: center; 
+   padding-bottom: 94px;  
+}
+
+
+
+.team-section {
+    background-color: #F4F4FD;
+    margin-top: 100px;
+    
+}
+
+.our-team {
+    color:#2E2F42;
+    padding-top: 94px;
+    padding-bottom: 94PX;
+    display: flex;
+    justify-content: center;
+    weidth: 700;
+    
+}
+
+.team-section .name {
+    color: #2E2F42;
+    background-color: white;
+}
+
+
+
+.date-employer {
+    list-style: none;
+    display: flex;
+    flex-direction: row;   
+    justify-content: space-around;
+    align-items: center;
+    align-content: stretch;
+    padding-bottom: 94px;
+}
+
+.costumers {
+   
+    display: flex;
+    justify-content: center;
+    padding-bottom: 94px;
+    margin-top: 100px;
+}
+
+.logo-client {
+    display: flex;
+    width: 1440px;
+    justify-content:center;
+    gap:25px;
+    margin-bottom: 150px;
+}
+
+.name {
+    align-items:self-end;
+    align-items: center;
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+            0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+            0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+            0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+.icons-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+    margin-top: 5%;
+    
+}
+
+.icon svg {
+    width: 20px;
+    height: 20px;
+   
+}
+
+.icon {
+    width: 44px;
+    height: 44px;
+    
+    border-radius: 50%;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon:hover,
+.icon:focus {
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+}
+.enumeration {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 15px;
+    width: 264px;
+}
+
+.footer {
+    background-color: rgb(46, 23, 3);
+    background: linear-gradient(90deg, rgba(46, 23, 3, 1) 77%, rgba(83, 54, 46, 1) 83%, rgba(23, 21, 18, 1) 94%), black;
+    color: #F4F4FD;
+    padding: 30px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 
+}
+
+.logo2::before {
+    content: "Web";
+    color: blue;
+}
+
+.text {
+    width: 240px;
+    height: 80px;
+}
+
+.left-colum {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.right-colum {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.subscribe-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+
+}
+
+.subscribe-input {
+    background-color: transparent;
+    line-height: 2.5;
+    border-radius: 5px;
+    width: 150%;
+}
+
+.subscribe-form {
+    border: 2px white;
+    padding 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.subscribe {
+    background-color: #4D5AE5;
+    padding-right: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.subscribe-btn-icon {
+    width: 24px;
+    height: 20px;
+}
+   
+
+-- Stilizare Desktop--
+@media screen and (min-width: 768px) {
+
+    .linkk {
+            text-decoration: none;
+        }
+    
+    .active {
+            border-bottom: 5px solid rgb(230, 165, 165);
+            padding-bottom: 24px;
+            text-decoration: none;
+        }
+    
+    .button {
+            width: 261px;
+            height: 24px;
+            gap: 40px;
+            weight: 500;
+            display: flex;
+            justify-content: space-around;
+            margin-block-start: 0%;
+        }
+    
+    .contact1 {
+            color: black;
+            display: flex;
+            height: 24px;
+            text-decoration: none;
+        }
+    
+    .contact2 {
+            color: black;
+            display: flex;
+            height: 24px;
+            text-decoration: none;
+        }
+    
+    .contact1 svg {
+            width: 20px;
+            height: 20px;
+        }
+    
+    .contact2 svg {
+            width: 20px;
+            height: 20px;
+        }
+        
+}
